@@ -13,16 +13,15 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 50px;
-}
-
 .top-contents h1,
 .top-contents p {
     color: white;
 }
 
-/* common style */
+h1 {
+    font-size: 50px;
+}
+
 .link-button {
     text-decoration: none;
     background-color: #fc4747;
@@ -38,21 +37,17 @@ section {
 }
 
 /* donation section starts */
-.donation-section {
+.donate-area {
     text-align: center;
 }
 
-.donation-text h2 {
-    font-size: 40px;
+h2 {
+    font-size: 35px;
 }
 
 .money-select {
     display: flex;
     justify-content: center;
-}
-
-.money {
-    display: flex;
 }
 
 .amount-box {
@@ -115,6 +110,7 @@ hr {
 
 .news-section-area h2 {
     text-align: center;
+
 }
 
 .news-box-area {
@@ -141,6 +137,10 @@ hr {
 .my-update-area {
     margin-bottom: 100px;
     text-align: center;
+}
+
+.my-update-text h2 {
+    font-size: 35px;
 }
 
 .email-area {
