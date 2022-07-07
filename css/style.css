@@ -7,7 +7,7 @@ body {
 /* top banner section starts */
 .top-banner-area {
     padding: 5%;
-    background-image: url(images/donation3.jpg);
+    background-image: url(../images/donation3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -97,7 +97,7 @@ hr {
     margin-right: 20px;
 }
 
-#edu-bg {
+#education-bg {
     background-color: #fff4d6;
 
 }
@@ -113,7 +113,7 @@ hr {
 
 }
 
-.news-box-area {
+.news-contents-area {
     display: flex;
 }
 
@@ -133,14 +133,14 @@ hr {
     overflow: hidden;
 }
 
+.news-site-name img {
+    width: 18px;
+}
+
 /* get update section */
 .my-update-area {
     margin-bottom: 100px;
     text-align: center;
-}
-
-.my-update-text h2 {
-    font-size: 35px;
 }
 
 .email-area {
@@ -157,7 +157,7 @@ hr {
     margin-left: 0;
     display: inline;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
 }
 
 #subscribe {
@@ -166,15 +166,15 @@ hr {
     padding: 7px;
     margin-right: 0;
     border: none;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     display: inline;
 }
 
-/* get update section end*/
+/* footer section */
 .footer {
     text-align: center;
     background-color: black;
-    padding: 50px;
+    padding: 30px;
 }
 
 .footer h2 {
